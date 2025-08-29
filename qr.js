@@ -1,5 +1,5 @@
 // get qr  code of any bot using this ....................
-//coded  by Gamerpraise
+//coded  by wasi
 
 
 const express = require("express");
@@ -17,7 +17,7 @@ const { Boom } = require("@hapi/boom");
 const PORT = process.env.PORT ||  5000
 const MESSAGE = process.env.MESSAGE ||  `
 ┌───⭓『
-❒ *Gamerpraise MD*
+❒ *GAMERPRAISE MD*
 ❒ _NOW DEPLOY IT_
 └────────────⭓
 ┌───⭓
@@ -134,7 +134,7 @@ SESSION-ID ==> ${Scan_Id}
     await fs.emptyDirSync(__dirname+'/auth_info_baileys'); 
 
 
-    //// MADE BY Gamerpraise
+    //// MADE BY ITXWASI
 
 });
 

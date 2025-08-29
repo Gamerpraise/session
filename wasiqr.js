@@ -59,21 +59,21 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let WASI_MD_TEXT = `
-*_Session Connected By Wasi Tech_*
+*_Session Connected By Gamerpraise_*
 *_Made With 🤍_*
 ______________________________________
 ╔════◇
-║ *『AMAZING YOU'VE CHOSEN WASI MD』*
+║ *『AMAZING YOU'VE CHOSEN GAMERPRAISE MD』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@wasitech1
-║❒ *Owner:* _https://wa.me/message/2349121243622_
-║❒ *Repo:* _https://github.com/Gamerpraise_
+║❒ *Ytube:* _youtube.com/@gamerpraise-mods_
+║❒ *Owner:* _https://wa.me/2349121243622_
+║❒ *Repo:* _https://github.com/Gamerpraise/Gamerpraise_
 ║❒ *WaGroup:* _https://chat.whatsapp.com/EjhrEPtjoZoAU4AKNp9Id8_
 ║❒ *WaChannel:* _https://whatsapp.com/channel/0029VbBRPc3CMY0IePiiU808_
-║❒ *Plugins:* _https://github.com/Gamerpraise 
+║❒ *Plugins:* _https://github.com/Gamerpraise_ 
 ╚════════════════════════╝
 _____________________________________
 	

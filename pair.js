@@ -66,11 +66,12 @@ ______________________________________
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@gamerpraise-mods
+║❒ *Ytube:* _youtube.com/@gamerpraise-mods_
 ║❒ *Owner:* _https://wa.me/2349121243622_
-║❒ *Repo:* _https://github.com/Gamerpraise
-║❒ *WaGroup:* _https://chat.whatsapp.com/EjhrEPtjoZoAU4AKNp9Id8
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VbBRPc3CMY0IePiiU808
+║❒ *Repo:* _https://github.com/Gamerpraise/Gamerpraise_
+║❒ *WaGroup:* _https://chat.whatsapp.com/EjhrEPtjoZoAU4AKNp9Id8_
+║❒ *WaChannel:* _https://whatsapp.com/channel/0029VbBRPc3CMY0IePiiU808_
+║❒ *Plugins:* _https://github.com/Gamerpraise/Gamerpraise_
 ╚════════════════════════╝
 _____________________________________
 
