@@ -1,5 +1,3 @@
-# WhatsApp Session Management with Baileys
-
 import express from 'express';
 import fs from 'fs';
 import pino from 'pino';
@@ -104,9 +102,12 @@ router.get('/', async (req, res) => {
                         removeFile(dirs);
                         console.log("✅ Session cleaned up successfully");
                         console.log("🎉 Process completed successfully!");
+                        // Do not exit the process, just finish gracefully
                     } catch (error) {
                         console.error("❌ Error sending messages:", error);
+                        // Still clean up session even if sending fails
                         removeFile(dirs);
+                        // Do not exit the process, just finish gracefully
                     }
                 }
 
