@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>WASI TECH BOT </title>
+  <title>GAMERPRAISE </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
@@ -12,63 +12,28 @@
       justify-content: center;
       height: 100vh;
       margin: 0;
-      background: linear-gradient(45deg, #000000, #1a1a1a, #2d0066, #4d0099);
-      background-size: 400% 400%;
-      animation: gradientBG 15s ease infinite;
-      font-family: 'Poppins', sans-serif;
-      color: #ffffff;
-      overflow: hidden;
-      position: relative;
-    }
-
-    body::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: 
-        radial-gradient(circle at 20% 30%, rgba(255, 0, 255, 0.15) 0%, transparent 40%),
-        radial-gradient(circle at 80% 70%, rgba(0, 255, 255, 0.15) 0%, transparent 40%);
-      filter: blur(30px);
-      z-index: -1;
-    }
-
-    @keyframes gradientBG {
-      0% {
-        background-position: 0% 50%;
-      }
-      50% {
-        background-position: 100% 50%;
-      }
-      100% {
-        background-position: 0% 50%;
-      }
+      background-color: black;
     }
 
     .btn {
-      --color: #00ff88;
-      --color2: #1a1a1a;
-      width: 250px;
-      padding: 1em 2em;
-      background: linear-gradient(45deg, #00cc69, #00ff88);
-      border-radius: 25px;
-      border: 2px solid var(--color);
-      box-shadow: 0 0 15px rgba(0, 255, 136, 0.3);
-      transition: all 0.4s ease;
+      --color: #e5f5f1;
+      --color2: rgb(0, 0, 0);
+      width: 200px;
+      padding: 0.8em 1.75em;
+      background-color: green;
+      border-radius: 6px;
+      border: .3px solid var(--color);
+      transition: .5s;
       position: relative;
       overflow: hidden;
       cursor: pointer;
       z-index: 1;
-      font-weight: 500;
-      font-size: 16px;
-      font-family: 'Poppins', sans-serif;
+      font-weight: 300;
+      font-size: 17px;
+      font-family: 'Roboto', 'Segoe UI', sans-serif;
       text-transform: uppercase;
-      letter-spacing: 2px;
-      color: var(--color2);
-      margin-bottom: 20px;
-      backdrop-filter: blur(5px);
+      color: var(--color);
+      margin-bottom: 24px;
     }
 
     .btn::after, .btn::before {
@@ -89,22 +54,6 @@
       top: -50%;
       left: -25%;
       transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
-      animation: buttonPulse 2s infinite;
-    }
-
-    @keyframes buttonPulse {
-      0% {
-        transform: skew(90deg) rotate(180deg) translate(-50%, -50%) scale(1);
-        opacity: 1;
-      }
-      50% {
-        transform: skew(90deg) rotate(180deg) translate(-50%, -50%) scale(1.1);
-        opacity: 0.8;
-      }
-      100% {
-        transform: skew(90deg) rotate(180deg) translate(-50%, -50%) scale(1);
-        opacity: 1;
-      }
     }
 
     .btn:hover::before {
@@ -126,18 +75,16 @@
   </style>
 </head>
 <body>
-  <div style="text-align: center; margin-bottom: 20px; color: #666;">
-    <div style="font-weight: bold; animation: float 3s ease-in-out infinite; text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">Created by Mr Wasi Dev</div>
-  </div>
 
   <button onclick="window.open(`/wasiqr`)" class="btn">QR Code</button>
   <button onclick="window.open(`/pair`)" class="btn">Pair Code</button>
   <button onclick="window.open(`https://github.com/Gamerpraise/Gamerpraise`)" class="btn">Bot Repo</button>
   <button onclick="window.open(`https://github.com/Gamerpraise`)" class="btn">Plugins</button>
   <button onclick="window.open(`https://wa.me/2349121243622`)" class="btn">Contact Me</button>
-  <button onclick="window.open(`https://chat.whatsapp.com/EjhrEPtjoZoAU4AKNp9Id8`)" class="btn">Wa Group</button>
+  <button onclick="window.open(`https://chat.whatsapp.com/EjhrEPtjoZoAU4AKNp9Id8?mode=ac_t`)" class="btn">Wa Group</button>
   <button onclick="window.open(`https://whatsapp.com/channel/0029VbBRPc3CMY0IePiiU808`)" class="btn">Wa Channel</button>
-  <button onclick="window.open(`https://instagram.com/gamerpraise001`)" class="btn">Instagram</button>
-  <button onclick="window.open(`https://youtube.com/@gamerpraise-mods`)" class="btn">Youtube</button>
+  <button onclick="window.open(`https://www.youtube.com/@gamerpraise-mods`)" class="btn">Youtube</button>
+  
+
 </body>
 </html>

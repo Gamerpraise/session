@@ -1,5 +1,5 @@
 const PastebinAPI = require('pastebin-js'),
-pastebin = new PastebinAPI('EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL')
+pastebin = new PastebinAPI('0029VahusSh0QeaoFzHJCk2x')
 const {makeid} = require('./id');
 const QRCode = require('qrcode');
 const express = require('express');
@@ -59,21 +59,21 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let WASI_MD_TEXT = `
-*_Session Connected By Gamerpraise_*
+*_Session Connected By Gamerpraise*
 *_Made With 🤍_*
 ______________________________________
 ╔════◇
-║ *『AMAZING YOU'VE CHOSEN GAMERPRAISE MD』*
+║ *『 AMAZING YOU'VE CHOSEN GAMERPRAISE MD』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@gamerpraise-mods_
-║❒ *Owner:* _https://wa.me/2349121243622_
-║❒ *Repo:* _https://github.com/Gamerpraise/Gamerpraise_
-║❒ *WaGroup:* _https://chat.whatsapp.com/EjhrEPtjoZoAU4AKNp9Id8_
+║❒ *Ytube:* _https://www.youtube.com/@gamerpraise-mods_
+║❒ *Owner:* https://wa.me/2349121243622_
+║❒ *Repo:* _https://github.com/Gamerpraise_
+║❒ *WaGroup:* _https://chat.whatsapp.com/EjhrEPtjoZoAU4AKNp9Id8?mode=ac_t_
 ║❒ *WaChannel:* _https://whatsapp.com/channel/0029VbBRPc3CMY0IePiiU808_
-║❒ *Plugins:* _https://github.com/Gamerpraise_ 
+║❒ *Plugins:* _https://github.com/Gamerpraise/Gamerpraise_
 ╚════════════════════════╝
 _____________________________________
 	
