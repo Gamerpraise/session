@@ -63,3 +63,14 @@ Generate session IDs for WhatsApp bots using [`@whiskeysockets/baileys`](https:/
 ---
 
 
+
+---
+
+## 🔧 v1.1 changes
+
+- Pair code / QR linking fixed (current WhatsApp version floor + `postinstall` patch for the platform rejection). If you still see `405` in the logs, set `WA_VERSION` (see `.env.example`).
+- After linking, the user gets 3 separate WhatsApp messages: `creds.json`, the session as plain text (long-press → Copy), then the notice/guide.
+- The website shows the session with a **Copy Session** button as soon as linking finishes.
+- Session text = `SESSION_PREFIX` + base64(`creds.json`). Leave the prefix empty for plain base64.
+- The socket is now closed after delivery so it doesn't kick the user's bot off (conflict).
+- Security: removed `express.static(__dirname)` (it exposed source files, `mega.js` and session folders), blocked path tricks in `?number=`, per-IP rate limit, Mega credentials moved to env vars.
