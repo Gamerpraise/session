@@ -1,0 +1,13 @@
+# Optional: lets you deploy on Render with "New → Blueprint". You can also create the
+# Web Service by hand (see README) – both work.
+services:
+  - type: web
+    name: gamerpraise-session
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 20

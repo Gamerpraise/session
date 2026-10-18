@@ -1,7 +1,7 @@
 {
-  "name": "Praise-bot",
-  "version": "1.1.0",
-  "description": "Gamerpraise Bot - WhatsApp Pair Code Generator",
+  "name": "gamerpraise-session",
+  "version": "2.0.0",
+  "description": "WhatsApp session generator (pair code + QR) for Baileys bots",
   "main": "index.js",
   "type": "module",
   "engines": {
@@ -9,17 +9,14 @@
   },
   "scripts": {
     "start": "node index.js",
-    "postinstall": "node scripts/patch-baileys.js",
-    "build": "echo 'No build step required'"
+    "postinstall": "node patch.js"
   },
-  "author": "Gamerpraise",
-  "license": "ISC",
+  "author": "Gpraise",
+  "license": "MIT",
   "dependencies": {
     "@whiskeysockets/baileys": "latest",
-    "awesome-phonenumber": "7.2.0",
-    "body-parser": "^1.20.3",
     "express": "^4.21.2",
-    "pino": "9.5.0",
+    "pino": "^9.5.0",
     "qrcode": "^1.5.4"
   }
 }
